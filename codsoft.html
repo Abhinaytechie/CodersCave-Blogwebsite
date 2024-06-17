@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience with my Internship with CodSoft</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .blog-post-full {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            animation: fadeIn 1s ease-in-out;
+        }
+        
+        .logo {
+            width: 100%;
+            height: 25rem;
+            animation: slideIn 2s ease-out;
+        }
+        
+        .blog-content-full {
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 10px;
+            animation: popUp 2s ease-out;
+        }
+        
+        .date, .author {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+        
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+        
+        ul {
+            list-style-type: disc;
+            margin: 10px 0 20px 20px;
+            color: #555;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background: #007BFF;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            animation: popUp 0.5s ease-out;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .skill:hover {
+            background: #0056b3;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+        
+        @keyframes popUp {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="blog-post-full">
+        <img src="codsoft.jpg" alt="CodSoft Logo" class="logo">
+        <div class="blog-content-full">
+            <h1>Experience with my Internship with CodSoft</h1>
+            <p class="date">May 2024</p>
+            <p class="author">Abhinay</p>
+            <p>I recently completed an enriching web development internship with CodSoft, where I built my own portfolio website and honed my skills in HTML, CSS, and JavaScript. This experience has been incredibly valuable in advancing my web development capabilities and providing practical, hands-on experience in a real-world setting.</p>
+            <p>CodSoft's structured approach to internships ensured that I had access to mentorship and resources that facilitated my learning and growth. I was able to work on real projects, collaborate with a team of skilled developers, and receive constructive feedback that helped me improve my coding techniques and problem-solving skills.</p>
+            <p>Overall, this internship has been a significant milestone in my career, providing me with the confidence and expertise needed to pursue further opportunities in the tech industry.</p>
+            
+            <h2>Key Takeaways</h2>
+            <ul>
+                <li>Enhanced my web development skills in HTML, CSS, and JavaScript.</li>
+                <li>Built a professional portfolio website.</li>
+                <li>Collaborated with a team of experienced developers.</li>
+                <li>Received valuable mentorship and constructive feedback.</li>
+                <li>Gained confidence to tackle real-world projects.</li>
+            </ul>
+            
+            <h2>Skills Acquired</h2>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Responsive Design</span>
+                <span class="skill">Team Collaboration</span>
+                <span class="skill">Problem-Solving</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
